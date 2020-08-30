@@ -11,8 +11,8 @@ spec:
     app: ecomap
     tier: frontend
   type: LoadBalancer
-  #externalIPs:
-  #- 192.168.57.106
+  externalIPs:
+  - 3.135.195.215
  
 ---
 apiVersion: apps/v1 # for versions before 1.9.0 use apps/v1beta2
